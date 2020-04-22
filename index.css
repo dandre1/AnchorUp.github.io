@@ -1,0 +1,246 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Sintony', sans-serif;
+}
+
+
+/* Landing Page */ 
+#landing-page {
+    position: relative;
+}
+
+#landing-page #landing-image {
+    position: absolute;
+    right: 0;
+    width: 90vw;
+    height: auto;
+}
+
+#landing-page #main-landing-header {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#landing-page #main-landing-header h1 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+
+    margin: 0;
+    width: fit-content;
+}
+
+#landing-page #main-landing-header h1 span {
+    border-bottom: 4px solid #df3f5f;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#landing-page #main-landing-header h2 {
+    font-family: 'Sintony', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #000000;
+
+    margin: 1.2rem 0 0 0;
+    text-align: right;
+    width: fit-content;
+    padding: .8rem;
+
+    background-color: #df3f5f;
+    color: #ffffff;
+}
+
+#landing-page #second-landing-header {
+    position: absolute;
+    bottom: 2rem;
+    left: 5%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#landing-page #second-landing-header h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    width: 30rem;
+}
+
+#landing-page #second-landing-header #line-between {
+    width: 5px;
+    height: auto;
+    margin-right: 1.5rem;
+    background-color: #df3f5f;
+}
+
+#landing-page #second-landing-header #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: fit-content;
+    margin: auto;
+
+    position: relative;
+}
+
+
+#landing-page #second-landing-header #links a {
+    background-color: #df3f5f;
+    color: #ffffff;
+    
+    width: 15rem;
+    height: fit-content;
+    font-size: 1rem;
+    padding: .7rem;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    border-radius: 10px;
+    box-shadow: 1px 2px #000000;
+
+    overflow: hidden;
+}
+
+#landing-page #second-landing-header #links #glow1 {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    height: 100%;
+    width: 1vw;
+    background: rgba(255, 255, 255, 0.4);
+    transition: all .3s linear;
+    transform: translateX(0);
+}
+
+#landing-page #second-landing-header #links a:hover #glow1 {
+    transform: translateX(calc(10vw + 70px));
+}
+
+/*
+#landing-page h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4vw;
+    color: #ffffff;
+    font-weight: normal;
+
+    position: absolute;
+    bottom: 6vw;
+    right: 4vw;
+
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+#landing-page #under-line-box {
+    width: 20vw;
+    height: 0.3vw;
+    background-color: #000000;
+
+    position: absolute;
+    bottom: calc(6vw - 0.7rem);
+    right: 4vw;
+}
+
+#landing-page #current-date-text {
+    position: absolute;
+    bottom: 20%;
+    left: -1.5vw;
+    transform: rotate(90deg);
+
+    padding: .3vw 1vw;
+
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.2vw;
+    color: #df3f5f;
+}
+
+#landing-page #current-date-box {
+    position: absolute;
+    bottom: 20%;
+    left: -1.5vw;
+    transform: rotate(90deg);
+   
+    padding: .3vw 1vw;
+
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.2vw;
+    color: #df3f5f;
+    background-color: #000000;
+    opacity: .7;
+}
+
+#landing-page #side-line {
+    position: absolute;
+    top: 1.5vw;
+    bottom: 20%;
+    left: 0;
+
+    width: 5px;
+    background-color: #df3f5f;
+    opacity: .7;
+}
+
+#landing-page #read-more {
+    position: absolute;
+    left: 45%;
+    bottom: 0vw;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+   
+    i {
+        border: solid #ffffff;
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+*/
